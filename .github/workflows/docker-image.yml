@@ -13,7 +13,7 @@ jobs:
       matrix:
         versions: [19]
     env:
-      repo: "govpf/node"
+      repo: "govpf/docker"
     steps:
 
     - name: Checkout
