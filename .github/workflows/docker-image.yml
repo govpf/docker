@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        versions: [19]
+        versions: [29]
     env:
       repo: "govpf/docker"
     steps:
