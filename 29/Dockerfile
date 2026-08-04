@@ -1,5 +1,8 @@
 FROM docker:29.6.2
 
+LABEL govpf.category="utility"
+LABEL govpf.fromimage="docker:29.6.2"
+
 ARG EARTHLY_VERSION=v0.8.16
 
 RUN apk add --no-cache git wget \
