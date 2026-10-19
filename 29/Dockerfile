@@ -1,7 +1,7 @@
-FROM docker:29.6.2
+FROM docker:29.9.1
 
 LABEL govpf.category="utility"
-LABEL govpf.fromimage="docker:29.6.2"
+LABEL govpf.fromimage="docker:29.9.1"
 
 ARG EARTHLY_VERSION=v0.8.16
 
